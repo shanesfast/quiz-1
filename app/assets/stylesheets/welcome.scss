@@ -1,0 +1,16 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'animate';
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: purple;
+  margin-top: 25%;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
