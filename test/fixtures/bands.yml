@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  from_country: MyString
+  from_state: MyString
+  from_city: MyString
+  start_year: MyString
+
+two:
+  name: MyString
+  from_country: MyString
+  from_state: MyString
+  from_city: MyString
+  start_year: MyString

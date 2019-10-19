@@ -9,8 +9,30 @@ body {
 }
 
 h1 {
-  color: purple;
-  margin-top: 25%;
-  animation-delay: 0.5s;
+  a {
+    color: purple;
+    text-decoration: none;
+  }
+  margin-top: 10%;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
+}
+
+h2 {
+  color: blue;
+  margin-top: 2%;
+}
+
+.band-name {
+  color: green;
+}
+
+.simple_form {
+  padding: 20px;
+  .input {
+    padding: 10px;
+  }
+  label {
+    padding-right: 10px;
+  }
 }

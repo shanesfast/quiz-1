@@ -1,1 +1,8 @@
-<h1 class="animated bounce">Check it out!</h1>
+<h1 class="animated pulse">
+<%= link_to 'Click to add a band: ', new_band_path, class: "animated bounce" %>
+</h1>
+
+<% @bands.each do |band| %>
+  <h2><b class="band-name"><%= band.name %></b> is from <%= band.from_city %>, <%= band.from_state %>, <%= band.from_country %></h2>
+  <h3>They started playing in <%= band.start_year %></h3>
+<% end %>

@@ -1,0 +1,10 @@
+<%= simple_form_for @band do |f| %>
+  <%= f.input :name %>
+  <%= f.input :from_city %>
+  <%= f.input :from_state %>
+  <%= f.input :from_country %>
+  <%= f.input :start_year %>
+  <%= f.button :submit %>
+<% end %>
+
+<%= link_to "Home Page", root_path %>
