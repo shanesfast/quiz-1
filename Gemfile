@@ -64,4 +64,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Added after Generation
 gem 'animate.css-rails', '~> 3.2.0' 
 gem 'simple_form'
-
